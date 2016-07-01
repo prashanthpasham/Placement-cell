@@ -1,0 +1,2 @@
+[11-Sep-2015 10:55:29 Etc/GMT] PHP Notice:  Undefined index: textinputs in /home/amagiccode/public_html/assets/plugins/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php on line 17
+[11-Sep-2015 10:55:29 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/amagiccode/public_html/assets/plugins/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php on line 25

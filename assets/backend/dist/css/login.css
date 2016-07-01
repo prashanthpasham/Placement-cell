@@ -1,0 +1,146 @@
+body {
+	background:url(../img/b1.jpg) 100%;
+}
+.login {
+	width: 550px;
+	margin: 0 auto;
+}
+.login h1 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 200;
+	text-align: center;
+}
+.login h1 small {
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.login h1 span {
+	font-size: 18px;
+}
+
+.login form {
+	padding: 15px;
+	margin-top: 20px;
+	background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+	border: 5px solid rgba(0, 0, 0, 0.1)
+}
+.login form .form-group {
+	margin: 0;
+}
+.login form h2 {
+	margin-bottom: 5px;
+	padding-bottom: 8px;
+	border-bottom: 2px dotted #bbb;
+	font-size: 24px;
+	font-weight: 400;
+	color: #545454;
+	margin-top: 0;
+}
+.login form h2:before {
+	font-family: 'FontAwesome';
+	content: "\f007";
+	color: #ccc;
+	padding-right: 10px;
+}
+.input-prepend {
+	position: relative;
+	height: 38px;
+	width: 100%;
+}
+.login form h2 span {
+	color: #eb4141
+}
+.login form label {
+	margin: 7px 0 5px 5px !important;
+	font-size: 16px;
+	text-align: left;
+	color: #5F5F5F;
+	font-weight: 200
+}
+.input-group1 input {
+	width: 93%;
+	height: 36px;
+	background: #fcfcfc;
+	border: 1px solid #ddd;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	color: #888;
+	position: absolute;
+	top: 0;
+	left: 30px;
+	font-size: 16px;
+}
+.input-group1 span {
+	display: inline-block;
+	background-color: #eeeeee;
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+	padding: 7px 10px;
+	position: absolute;
+	color: #888;
+	height: 36px;
+	left: 0;
+	top: 0;
+}
+.input-group1 input:before {
+	font-family: 'FontAwesome';
+	content: "\f040";
+	color: #ccc;
+	padding-right: 15px
+}
+.login form button {
+	cursor: pointer;
+	width: 40%;
+	height: 42px;
+	float: right;
+	margin-top: 15px;
+	padding: 0;
+	background: #eb4141;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 0;
+	-moz-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+	-webkit-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+	box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 0 1px 2px rgba(0,0,0,.1);
+	-o-transition: all .2s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+	-ms-transition: all .2s;
+}
+.login p {
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+}
+.login p a {
+	color: #ddd;
+}
+.login-error p{
+	color:#E60000;
+	text-align:left
+}
+@media (max-width:767px) {
+	.login{
+		width:96%;
+	}
+}
